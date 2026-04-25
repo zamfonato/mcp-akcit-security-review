@@ -3,7 +3,7 @@ import { OWASP_WEB_TOP_10 } from "../data/owasp-web.js";
 import { OWASP_LLM_TOP_10_2025 } from "../data/owasp-llm.js";
 import { AI_STACK_DEPS } from "../data/ai-stack-deps.js";
 
-export const DOC_SECURITY_REVIEW_PROMPT = "doc-security-review";
+export const DOC_SECURITY_REVIEW_PROMPT = "audit";
 
 export interface DocSecurityReviewArgs {
   repo_path?: string;
